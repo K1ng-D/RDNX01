@@ -183,7 +183,7 @@ npx snyk test</code></pre>
   };
 
   return (
-    <div className="min-h-screen bg-black text-cyan-100 pt-24 pb-12 px-6 sm:px-8 lg:px-12">
+    <div className="min-h-screen bg-black text-cyan-100 pt-16 md:pt-24 pb-12 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-28 2xl:px-32">
       {/* Background overlay */}
       <div
         className="fixed inset-0 z-0 opacity-5 pointer-events-none"

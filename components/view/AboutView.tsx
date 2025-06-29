@@ -11,7 +11,7 @@ import {
 
 const CyberAbout = () => {
   return (
-    <div className="min-h-screen bg-black text-cyan-100 pt-16 md:pt-24 pb-12 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-24 2xl:px-32">
+    <div className="min-h-screen bg-black text-cyan-100 pt-16 md:pt-24 pb-12 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-28 2xl:px-32">
       {/* Responsive grid overlay */}
       <div
         className="fixed inset-0 z-0 opacity-5 pointer-events-none"
