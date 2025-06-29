@@ -11,7 +11,7 @@ import {
 
 const CyberAbout = () => {
   return (
-    <div className="min-h-screen bg-black text-cyan-100 pt-24 pb-12 px-6 sm:px-12 lg:px-24">
+    <div className="min-h-screen bg-black text-cyan-100 pt-24 pb-12 px-6 md:px-10 sm:px-12 lg:px-24">
       {/* Hex grid overlay */}
       <div
         className="fixed inset-0 z-0 opacity-5 pointer-events-none"
