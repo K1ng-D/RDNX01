@@ -44,7 +44,7 @@ export const TransitionPage = ({ children }: { children: ReactNode }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.05 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-40 pointer-events-none bg-[url('/noise.png')] mix-blend-overlay"
+          className="fixed inset-0 z-40 pointer-events-none  mix-blend-overlay"
         />
 
         {children}

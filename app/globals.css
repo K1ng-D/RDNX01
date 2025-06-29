@@ -66,3 +66,28 @@ body {
 .animate-ping-slow {
   animation: ping-slow 3s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
+
+/* Enhanced scanline effect */
+@keyframes scanline {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+/* Optional: Add this for CRT curvature effect */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 0%,
+    rgba(100, 255, 255, 0.03) 50%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 10;
+}
